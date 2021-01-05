@@ -2,25 +2,22 @@
 #welcome{
     font-weight: 900;
     font-size: 30px;
-    color:rgb(7, 40, 150);
+    color:rgb(84, 15, 148);
     text-align: center;
     margin-top:5px;
+    
     padding: 15px;
-    box-shadow: 2px 10px 20px gray;
+    box-shadow: 2px 10px 20px black;
     border-radius: 10px;
-    background-image: linear-gradient(45deg,rgba(33, 197, 115, 0.815),greenyellow, rgba(33, 197, 115, 0.815));
 }
 
-h2{
-    color:seagreen;
-}
 .highlight{
     color:rgb(7, 40, 150);
     font-weight:800;
     font-size:25px;
 }
 .top-highlight{
-    color:rgb(8, 85, 85);
+    color:rgb(11, 77, 77);
     font-size:35px;
 }
 p{
@@ -35,9 +32,9 @@ p{
     font-weight: 700;
 }
 .half-width{
-    width:40%;
+    width:35%;
     padding:2%;
-    margin:2%;
+    margin:5%;
     float:left;
 }
 .half-width img{
@@ -45,9 +42,42 @@ p{
     height:400px;
 }
 body{
-    background-image: url(images/b-g3.jpg);
+    background-image: linear-gradient(90deg, #90a177c9, #8eaa9cd0, #90a177c9);
     width:99%;
 }
 section{
-    padding-bottom: 300px;
+    height:400px;
+    padding-bottom: 200px;
+}
+.dream{
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url(images/dream-bg.png);
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(204, 13, 13), rgb(204, 116, 100));
+    border-image-slice: 1;
+}
+#baby-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+.background-white{
+    background-color: white;
+    border-radius: 10px;
+}
+.experience{
+    height:300px;
+    box-shadow: 10px 10px 20px black;
+    
+}
+.experience-background{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#copyright{
+    text-align:center;
 }
